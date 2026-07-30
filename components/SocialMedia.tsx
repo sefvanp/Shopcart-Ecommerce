@@ -16,7 +16,7 @@ interface Props {
 const socialLink = [
   {
     title: "Youtube",
-    href: "www.youtube.com/@ae.sfvnhere",
+    href: "https://www.youtube.com/@ae.sfvnhere",
     icon: <Youtube className="w-5 h-5" />,
   },
   {
@@ -26,7 +26,7 @@ const socialLink = [
   },
   {
     title: "Linkedin",
-    href: "www.linkedin.com/in/sefvan-p-p-7024aa266",
+    href: "https://www.linkedin.com/in/sefvan-p-p-7021aa266/",
     icon: <Linkedin className="w-5 h-5" />,
   },
   {
