@@ -52,7 +52,7 @@ export async function createCheckoutSession(
       cancel_url: `${baseUrl}/cart`,
       line_items: items?.map((item) => ({
         price_data: {
-          currency: "USD",
+          currency: "inr",
           unit_amount: Math.round(item?.product?.price! * 100),
           product_data: {
             name: item?.product?.name || "Unknown Product",

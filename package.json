@@ -4,6 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev --turbopack",
+    "auto-deploy": "bash scripts/auto-deploy.sh",
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
@@ -46,6 +47,7 @@
     "zustand": "^5.0.3"
   },
   "devDependencies": {
+    "chokidar-cli": "^3.0.0",
     "@eslint/eslintrc": "^3",
     "@tailwindcss/postcss": "^4",
     "@types/node": "^20",
